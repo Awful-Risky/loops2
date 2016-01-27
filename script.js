@@ -1,5 +1,6 @@
 var animals = ['rat', 'cat', 'butterfly', 'marmot', 'ocelot']
 console.log(animals)
+
 // for (i =0; i<= animals.length; i++) {
 
 // }
@@ -27,3 +28,16 @@ console.log(animals)
 
 //------------------------------------------
 
+function reverseOrder (Array) {
+	newArray = []
+	for (var i = Array.length - 1; i >= 0; i -= 1) {
+		console.log(Array[i]);
+		newArray.push(Array[i]);
+	}
+	return newArray; 
+}
+
+testReverseOrder = reverseOrder(animals);
+console.log(testReverseOrder);
+
+//------------------------------------------
