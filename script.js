@@ -10,6 +10,20 @@ console.log(animals)
 // }
 // testPopFrom = popFrom(animals);
 // console.log(testPopFrom);
+// console.log(animals);
+
+//------------------------------------------
+
+// function popOdds(Array) {
+// 	var filteredArray = Array.filter(function(element, index) {
+// 		return index % 2 === 0;
+// 	});
+// 	return filteredArray;
+// }
+
+// testPopOdds = popOdds(animals);
+// console.log(testPopOdds);
 
 
+//------------------------------------------
 
