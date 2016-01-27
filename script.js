@@ -28,16 +28,39 @@ console.log(animals)
 
 //------------------------------------------
 
-function reverseOrder (Array) {
-	newArray = []
-	for (var i = Array.length - 1; i >= 0; i -= 1) {
-		console.log(Array[i]);
-		newArray.push(Array[i]);
-	}
-	return newArray; 
-}
+// function reverseOrder (Array) {
+// 	newArray = [];
+// 	for (var i = Array.length - 1; i >= 0; i -= 1) {
+// 		console.log(Array[i]);
+// 		newArray.push(Array[i]);
+// 	}
+// 	return newArray; 
+// }
 
-testReverseOrder = reverseOrder(animals);
-console.log(testReverseOrder);
+// testReverseOrder = reverseOrder(animals);
+// console.log(testReverseOrder);
 
 //------------------------------------------
+
+function lameFunction (Array) {
+	for (var i=0; i < Array.length; i++) {
+		if (i === 0 || i === Array.length-1) {
+			console.log(Array[i]);
+		}
+		else {
+			console.log(Array[i]);
+			console.log(Array[i]);
+		}
+	}
+}
+lameFunction(animals);
+
+//------------------------------------------
+
+
+
+
+
+
+
+
